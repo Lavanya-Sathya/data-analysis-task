@@ -1,4 +1,4 @@
-import FlavanoidTable from "./FlavanoidTable";
+import Flavanoid from "./Flavanoid";
 import { useState } from "react";
 import Gamma from "./Gamma";
 function App() {
@@ -33,7 +33,7 @@ function App() {
       </div>
       {/* table will be loaded here */}
       <div className="table-container">
-        {isFlavanoid && <FlavanoidTable />}
+        {isFlavanoid && <Flavanoid />}
         {isGamma && <Gamma />}
         {isHome && (
           <div className="home">

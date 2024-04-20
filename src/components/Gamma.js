@@ -1,4 +1,4 @@
-// Component to display Gamma Table
+// Component to calculate gamma
 import { useEffect, useState } from "react";
 import dataset from "../utils/Wine-Data";
 import TableComponent from "./TableComponent";
