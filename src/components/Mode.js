@@ -35,6 +35,10 @@ const Mode = (props) => {
           modeVal[idx].push(Number(val));
         }
       });
+      if (modeVal[idx].length === Object.keys(element).length) {
+        modeVal[idx] = [];
+        modeVal[idx].push("No Mode Found");
+      }
     });
     setMode(modeVal);
   }, [data]);
