@@ -16,7 +16,7 @@ const Median = (props) => {
       } else {
         // return this if the length of the array is even
         const med = (sort[len / 2 - 1] + sort[len / 2]) / 2;
-        return med;
+        return Number(med.toFixed(3));
       }
     });
     setMedian(medianVal);
