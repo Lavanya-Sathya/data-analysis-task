@@ -1,13 +1,68 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background-color: #14213d;
+  color: #e5e5e5;
+  min-height: 100vh;
+  height: auto;
+  padding-bottom: 4rem;
+}
+/* header styling */
+.header {
+  padding: 10px;
+  border-bottom: 2px solid rgb(51, 51, 97);
+}
+.header > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+.header > ul > li {
+  list-style-type: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.header > ul > li:hover {
+  color: #fca311;
+}
+/* table styling */
+.table {
+  margin: auto;
+  max-width: 700px;
+  font-size: 1.1rem !important;
+}
+.tableHeading {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #fca311;
+}
+.table-container {
+  margin: 100px;
+}
+.table-width {
+  min-width: 100px;
+  max-height: 200px;
+}
+.tbl-wd {
+  min-width: 150px;
+}
+@media screen and (max-width: 700px) {
+  .table-container {
+    margin: 60px 10px;
+  }
+  .table-width {
+    min-width: auto;
+    max-height: auto;
+  }
+}
+.home {
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;
+  color: rgb(96, 122, 122);
 }
