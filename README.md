@@ -1,5 +1,6 @@
 # Data Analysis
-
+## Live link :
+- https://wine-data-analysis.netlify.app/
 ## Overview
 
 - This project calculates statistical measures such as mean, median, and mode for the Wine Data Set using React with Mantine v7. The statistical measures are calculated for the "Flavanoids" property as well as a derived property "Gamma," and they are displayed in tabular format.
