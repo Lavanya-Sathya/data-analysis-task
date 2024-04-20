@@ -28,7 +28,33 @@
 
 - `Wine-Data` : Sample Wine dataset used for calculations.
 
-### `yarn start`
+## Installations
+
+- Clone the repository by running the below command
+
+```
+git clone git@github.com:Lavanya-Sathya/data-analysis-task.git
+```
+
+- Navigate to Project repository
+
+```
+cd data-analysis-task
+```
+
+- install dependencies using yarn
+
+```
+yarn install
+```
+
+## Running the Application
+
+- Start the development server
+
+```
+yarn start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
